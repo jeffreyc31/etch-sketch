@@ -13,6 +13,22 @@ body {
     background-color: darkcyan;
 }
 
+h1 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 0;
+    padding: 0 150px;
+    text-align: center;
+}
+
+button {
+    margin: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+}
+
 #container {
     border: 0;
     margin: auto;
