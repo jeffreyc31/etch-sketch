@@ -4,7 +4,7 @@ let newDiv;
 let divHeight = 150;
 let divWidth = 150;
 
-for (i = 1; i <= 16; i++) {
+for (i = 1; i <= 256; i++) {
     newDiv = document.createElement('div');
     newDiv.id = `box-${i}`;
     newDiv.classList.add("boxes");
@@ -63,7 +63,7 @@ reset.addEventListener('click', function(e) {
             emptyCont.removeChild(emptyCont.lastChild);
         }
 
-        for (i = 1; i <= size; i++) {
+        for (i = 1; i <= (size * size); i++) {
             newDiv = document.createElement('div');
             newDiv.id = `box-${i}`;
             newDiv.classList.add("boxes");
