@@ -32,8 +32,8 @@ button {
 #container {
     border: 0;
     margin-bottom: 30px;
-    width: 680px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
