@@ -72,7 +72,5 @@ reset.addEventListener('click', function(e) {
         }
         colorBox();
         setDimension();
-
     }
-
 });
