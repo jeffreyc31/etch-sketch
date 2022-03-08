@@ -53,7 +53,7 @@ reset.addEventListener('click', function(e) {
         alert("Your entry was not a valid number. Please press the 'Reset' button and try again.")
     } else if ((size % 1) != 0) {
         alert("Your entry was not a valid number. Please press the 'Reset' button and try again.")
-    } else if (size < 0 || size > 100) {
+    } else if (size <= 0 || size > 100) {
         alert("Your entry was not a valid number. Please press the 'Reset' button and try again.")
     } else {
         const emptyCont = document.getElementById('container');
