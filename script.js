@@ -1,3 +1,5 @@
+//Script for initial page 16x16 grid
+
 let newDiv;
 
 for (i = 1; i <= 16; i++) {
@@ -13,7 +15,11 @@ function changeColor() {
     return false;
 }
 
-let boxList = document.querySelectorAll('div.boxes');
-const boxArray = Array.from(boxList);
+function colorBox() {
+    let boxList = document.querySelectorAll('div.boxes');
+    const boxArray = Array.from(boxList);
+    boxArray.forEach(element => element.addEventListener("mouseover", changeColor));
 
-boxArray.forEach(element => element.addEventListener("mouseover", changeColor));
+}
+
+colorBox();
