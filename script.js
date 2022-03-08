@@ -1,8 +1,7 @@
 //variable and function declaration
 
 let newDiv;
-let divHeight = 500 / 16;
-let divWidth = 500 / 16;
+let divDimension = 500 / 16;
 
 for (i = 1; i <= 256; i++) {
     newDiv = document.createElement('div');
@@ -31,7 +30,7 @@ function getSize() {
 function setDimension() {
     let boxList = document.querySelectorAll('div.boxes');
     const boxArray = Array.from(boxList);
-    boxArray.forEach(element => element.setAttribute(`style`, `width:${divWidth}px; height:${divHeight}px`));
+    boxArray.forEach(element => element.setAttribute(`style`, `width:${divDimension}px; height:${divDimension}px`));
 }
 
 //Script for initial page 16x16 grid
