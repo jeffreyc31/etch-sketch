@@ -1,7 +1,7 @@
 //variable and function declaration
 
 let newDiv;
-let divDimension = 500 / 16;
+let divDimension = 550 / 16;
 
 for (i = 1; i <= 256; i++) {
     newDiv = document.createElement('div');
@@ -45,7 +45,7 @@ let reset = document.getElementById('reset');
 reset.addEventListener('click', function(e) {
     let size = getSize();
     let sizeType = Number(size);
-    divDimension = 500 / size;
+    divDimension = 550 / size;
     console.log(size);
     console.log(sizeType);
 
