@@ -1,8 +1,8 @@
 //variable and function declaration
 
 let newDiv;
-let divHeight = 150;
-let divWidth = 150;
+let divHeight = 600 / 16;
+let divWidth = 680 / 16;
 
 for (i = 1; i <= 256; i++) {
     newDiv = document.createElement('div');
