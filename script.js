@@ -45,8 +45,7 @@ let reset = document.getElementById('reset');
 reset.addEventListener('click', function(e) {
     let size = getSize();
     let sizeType = Number(size);
-    divWidth = 680 / size;
-    divHeight = 600 / size;
+    divDimension = 500 / size;
     console.log(size);
     console.log(sizeType);
 
