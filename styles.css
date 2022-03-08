@@ -17,5 +17,11 @@ body {
     width: 70%;
     height: 600px;
     display: flex;
+    flex-wrap: wrap;
     background-color: #fff;
+}
+
+.boxes {
+    height: 25%;
+    width: 25%;
 }
