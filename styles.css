@@ -25,6 +25,6 @@ body {
 }
 
 .boxes {
-    height: 150px;
-    width: 150px;
+    padding: 0;
+    margin: 0;
 }
